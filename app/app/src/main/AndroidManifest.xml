@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterCoinActivity"></activity>
-        <activity android:name=".DashboardActivity"></activity>
+        <activity android:name=".RegisterCoinActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".RecommendationActivity"></activity>
     </application>
 
 </manifest>

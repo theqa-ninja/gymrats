@@ -24,6 +24,24 @@
         android:id="@+id/collectionButton"
         android:src="@drawable/ic_collection" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/collectionButton"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:id="@+id/recommendationButton"
+        android:src="@drawable/ic_recommendation" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/recommendationButton"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:id="@+id/logButton"
+        android:src="@drawable/ic_log" />
+
     <ProgressBar
         android:id="@+id/determinateBar"
         style="@android:style/Widget.ProgressBar.Horizontal"
