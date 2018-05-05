@@ -3,4 +3,5 @@
     <string name="creature_description">creature</string>
     <string name="register_coin">Register Coin</string>
     <string name="register_description">Register your gym rat coin!</string>
+    <string name="register_button_clicked">Register button clicked!</string>
 </resources>
