@@ -1,0 +1,37 @@
+{
+  "name": "gymrats",
+  "version": "1.0.0",
+  "description": "**Work out as games**",
+  "main": "./api_app/index.js",
+  "scripts": {
+    "start": "node ./api_app/bin/www",
+    "devstart": "nodemon ./api_app/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:theqa-ninja/gymrats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/theqa-ninja/gymrats",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-watch": "*",
+    "mocha": "*",
+    "nodemon": "*",
+    "supertest": "*"
+  }
+}
