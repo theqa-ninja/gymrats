@@ -10,19 +10,34 @@
     <ImageView
         android:id="@+id/creature_image_view"
         android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:contentDescription="@string/creature_description"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/creature_description" />
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login" />
+        android:layout_height="48dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="@drawable/button_login" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register" />
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Register"
+        android:textColor="@color/login_button"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/button_register" />
 
 </LinearLayout>
