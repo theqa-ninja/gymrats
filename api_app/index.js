@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 const router = express.Router();
 
-// db.connect();
+db.client.connect();
 
 //TODO: Add pre-router processing here
 router.use(function(request, response, next) {
@@ -21,17 +21,5 @@ router.use(function(request, response, next) {
 
 const indexRoutes = require('./routes/index');
 app.use('/api/v1', indexRoutes);
-
-// var server = http.createServer(function(req, res) {
-
-// res.writeHead(200);
-
-// res.end('Hi everybody!');
-
-// });
-
-// server.listen(process.env.PORT || 5000);
-
-// console.log(`now listening to ${process.env}:${process.env.PORT}`);
 
 module.exports = app;
