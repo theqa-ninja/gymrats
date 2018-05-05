@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Gymrats</string>
+    <string name="creature_description">creature</string>
 </resources>
