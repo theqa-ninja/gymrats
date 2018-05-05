@@ -12,9 +12,11 @@
         android:layout_height="wrap_content"
         android:text="@string/register_description"/>
     <EditText
+        android:id="@+id/coin_id_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/button_register_coin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register_coin"/>
