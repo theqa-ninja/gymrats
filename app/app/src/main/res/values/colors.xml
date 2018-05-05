@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="login_button">#7dd4a4</color>
+    <color name="progress">#7dd4a4</color>
+    <color name="progress_secondary">#b6e7cc</color>
 </resources>
