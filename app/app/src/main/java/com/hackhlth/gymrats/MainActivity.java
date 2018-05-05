@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mCreatureImageView = findViewById(R.id.creature_image_view);
         mCreatureImageView.setImageDrawable(getResources().getDrawable(R.drawable.whale));
+
+        findViewById(R.id.loginButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DashboardActivity.class));
+            }
+        });
     }
 
     @Override
