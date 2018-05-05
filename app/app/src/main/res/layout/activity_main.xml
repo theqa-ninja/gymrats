@@ -40,4 +40,10 @@
         android:textSize="18dp"
         android:background="@drawable/button_register" />
 
+    <Button
+        android:id="@+id/creatureDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details" />
+
 </LinearLayout>
