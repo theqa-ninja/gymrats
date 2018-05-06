@@ -52,7 +52,8 @@
         android:text="Creature Details"
         android:textColor="@color/login_button"
         android:textStyle="bold"
-        android:textSize="18dp"
-        android:background="@drawable/button_register" />
+        android:textSize="16dp"
+        android:background="@drawable/button_register"
+        style="?android:attr/borderlessButtonStyle" />
 
 </LinearLayout>

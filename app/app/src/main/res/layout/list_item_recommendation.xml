@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/recommendationLevel"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/green_background" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/recommendation_vertical_padding"
+        android:layout_marginBottom="@dimen/recommendation_vertical_padding">
+
+        <TextView
+            android:id="@+id/traitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Calcium" />
+
+        <TextView
+            android:id="@+id/genotypeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/traitName"
+            android:text="Your Genotype: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/allele1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/genotypeLabel"
+            android:layout_below="@id/traitName"
+            android:text="T"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/allele2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/allele1"
+            android:layout_below="@id/traitName"
+            android:text="T"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genotypeLabel"
+            android:text="Your genetics may indicate that you are more likely to have increased calcium levels, but that is only if you are getting sufficient calcium in your diet." />
+
+    </RelativeLayout>
+
+</LinearLayout>

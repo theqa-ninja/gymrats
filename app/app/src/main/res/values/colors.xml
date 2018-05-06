@@ -3,13 +3,18 @@
     <color name="colorPrimary">#7cadd4</color>
     <color name="colorPrimaryDark">#336e9d</color>
     <color name="colorPrimaryLight">#b6d1e7</color>
-    <color name="colorAccent">#d4cf7c</color>
+    <color name="colorAccent">@color/yellow</color>
 
     <color name="light_gray">#dddddd</color>
+    <color name="gray">#999999</color>
     <color name="dark_gray">#555555</color>
 
     <color name="sidebar_button">@color/colorPrimary</color>
     <color name="login_button">@color/colorPrimary</color>
     <color name="progress">@color/colorPrimary</color>
     <color name="progress_secondary">@color/colorPrimaryLight</color>
+
+    <color name="green">#81d47c</color>
+    <color name="yellow">#d4cf7c</color>
+    <color name="red">#d47c81</color>
 </resources>

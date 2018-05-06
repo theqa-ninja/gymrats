@@ -3,4 +3,5 @@
     <dimen name="sidebar_button_spacing">16dp</dimen>
     <dimen name="sidebar_button_padding">12dp</dimen>
     <dimen name="sidebar_button_padding_right">32dp</dimen>
+    <dimen name="recommendation_vertical_padding">8dp</dimen>
 </resources>
