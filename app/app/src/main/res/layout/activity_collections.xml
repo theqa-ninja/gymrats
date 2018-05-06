@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.hackhlth.gymrats.collection.CollectionsActivity"
+        tools:showIn="@layout/activity_collections"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/collections_title"
+            android:textAlignment="center"
+            android:textColor="@color/helix_green"
+            android:textSize="@dimen/collections_title_text_size" />
+
+        <GridView
+            android:id="@+id/alleleanGrid"
+            android:numColumns="3"
+            android:gravity="center"
+            android:columnWidth="70dp"
+            android:stretchMode="columnWidth"
+            android:layout_width="fill_parent"
+            android:scrollbars="horizontal"
+            android:layout_height="fill_parent" >
+        </GridView>
+
+
+    </LinearLayout>

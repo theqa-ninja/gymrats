@@ -9,6 +9,12 @@
     <color name="gray">#999999</color>
     <color name="dark_gray">#555555</color>
 
+    <color name="fitbit_green">#00b0b9</color>
+    <color name="helix_pink">#f45b83</color>
+    <color name="helix_yellow">#f9be07</color>
+    <color name="helix_blue">#3f4c77</color>
+    <color name="helix_green">#7acb71</color>
+
     <color name="sidebar_button">@color/colorPrimary</color>
     <color name="login_button">@color/colorPrimary</color>
     <color name="progress">@color/colorPrimary</color>

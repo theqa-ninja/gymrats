@@ -19,6 +19,7 @@
         <activity android:name=".RegisterCoinActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".recommendation.RecommendationActivity"></activity>
+        <activity android:name=".collection.CollectionsActivity"></activity>
     </application>
 
 </manifest>

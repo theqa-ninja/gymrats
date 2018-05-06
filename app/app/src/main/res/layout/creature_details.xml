@@ -4,14 +4,21 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
     <TextView
+        android:id="@+id/creature_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_gravity="center"
         android:padding="10dp"
         android:text="Creature Details:" />
     <ImageView
         android:id="@+id/creature_image_view"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
         android:contentDescription="@string/creature_description" />
+    <TextView
+        android:id="@+id/creature_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
 </LinearLayout>

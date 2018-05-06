@@ -22,4 +22,7 @@ router.use(function(request, response, next) {
 const indexRoutes = require('./routes/index');
 app.use('/api/v1', indexRoutes);
 
+const userRoutes = require('./routes/users');
+app.use('/api/v1', userRoutes);
+
 module.exports = app;

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mCreatureImageView = findViewById(R.id.creature_image_view);
-        mCreatureImageView.setImageDrawable(getResources().getDrawable(R.drawable.whale));
+        mCreatureImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_whale));
 
         findViewById(R.id.loginButton).setOnClickListener(new View.OnClickListener() {
             @Override
