@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class CollectionsActivity extends AppCompatActivity {
 
-
+    private String mResults;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class CollectionsActivity extends AppCompatActivity {
             if (s != null && !s.equals("")) {
                 TextView sampleResultTextView = findViewById(R.id.sample_result);
                 sampleResultTextView.setText(s);
+                mResults = s;
             }
         }
     }
