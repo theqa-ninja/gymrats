@@ -87,4 +87,168 @@
         android:textStyle="italic"
         android:textColor="@color/dark_gray" />
 
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/stepsProgress"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignTop="@id/refreshButton"
+        android:layout_marginLeft="16dp"
+        app:donut_show_text="false"
+        app:donut_finished_stroke_width="5dp"
+        app:donut_unfinished_stroke_width="5dp"
+        app:donut_finished_color="@color/yellow"
+        app:donut_unfinished_color="@color/light_gray"
+        app:donut_circle_starting_degree="90"
+        app:donut_progress="50"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/stepsProgress"
+        android:layout_alignTop="@id/stepsProgress"
+        android:layout_alignBottom="@id/stepsProgress"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stepsCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/stepsTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="of 10,000 steps" />
+
+    </LinearLayout>
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/caloriesProgress"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignTop="@id/logButton"
+        android:layout_marginLeft="16dp"
+        app:donut_show_text="false"
+        app:donut_finished_stroke_width="5dp"
+        app:donut_unfinished_stroke_width="5dp"
+        app:donut_finished_color="@color/red"
+        app:donut_unfinished_color="@color/light_gray"
+        app:donut_circle_starting_degree="90"
+        app:donut_progress="20"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/caloriesProgress"
+        android:layout_alignTop="@id/caloriesProgress"
+        android:layout_alignBottom="@id/caloriesProgress"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/caloriesCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20%"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/caloriesTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="of 1,500 calories" />
+
+    </LinearLayout>
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/sleepProgress"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignTop="@id/recommendationButton"
+        android:layout_marginLeft="16dp"
+        app:donut_show_text="false"
+        app:donut_finished_stroke_width="5dp"
+        app:donut_unfinished_stroke_width="5dp"
+        app:donut_finished_color="@color/yellow"
+        app:donut_unfinished_color="@color/light_gray"
+        app:donut_circle_starting_degree="90"
+        app:donut_progress="80"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sleepProgress"
+        android:layout_alignTop="@id/sleepProgress"
+        android:layout_alignBottom="@id/sleepProgress"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sleepCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="80%"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/sleepTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="of 7 hours" />
+
+    </LinearLayout>
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/waterProgress"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignTop="@id/collectionButton"
+        android:layout_marginLeft="16dp"
+        app:donut_show_text="false"
+        app:donut_finished_stroke_width="5dp"
+        app:donut_unfinished_stroke_width="5dp"
+        app:donut_finished_color="@color/green"
+        app:donut_unfinished_color="@color/light_gray"
+        app:donut_circle_starting_degree="90"
+        app:donut_progress="100"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/waterProgress"
+        android:layout_alignTop="@id/waterProgress"
+        android:layout_alignBottom="@id/waterProgress"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/waterCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/waterTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="of 8 cups" />
+
+    </LinearLayout>
+
 </RelativeLayout>
