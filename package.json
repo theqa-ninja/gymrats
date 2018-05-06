@@ -2,7 +2,7 @@
   "name": "gymrats",
   "version": "1.0.0",
   "description": "**Work out as games**",
-  "main": "./api_app/index.js",
+  "main": "./api_app/server.js",
   "scripts": {
     "start": "node ./api_app/bin/www",
     "devstart": "nodemon ./api_app/bin/www",
@@ -19,7 +19,9 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
-    "pg": "*"
+    "pg": "^7.4.2",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
   },
   "devDependencies": {
     "chai": "*",
