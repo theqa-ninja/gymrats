@@ -1,10 +1,8 @@
 package com.hackhlth.gymrats;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,12 +20,12 @@ public class CreatureDetailsFragment extends DialogFragment {
         LayoutInflater layoutInflater = (LayoutInflater) getActivity()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-        View layout = layoutInflater.inflate(R.layout.creaure_details, null);
+        View layout = layoutInflater.inflate(R.layout.creature_details, null);
         dialog.setContentView(layout);
 
         ImageView myImage = layout.findViewById(R.id.creature_image_view);
 
-        myImage.setImageDrawable(getResources().getDrawable(R.drawable.whale));
+        myImage.setImageDrawable(getResources().getDrawable(R.drawable.ic_whale));
 
 
         return dialog;

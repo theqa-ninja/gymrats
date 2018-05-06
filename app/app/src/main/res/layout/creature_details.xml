@@ -12,6 +12,6 @@
     <ImageView
         android:id="@+id/creature_image_view"
         android:layout_width="100dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:contentDescription="@string/creature_description" />
 </LinearLayout>
