@@ -7,10 +7,14 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class CreatureDetailsFragment extends DialogFragment {
 
     private ImageView mCreatureImageView;
+    private TextView mCreatureName;
+    private TextView mCreatureDescription;
+
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -23,10 +27,12 @@ public class CreatureDetailsFragment extends DialogFragment {
         View layout = layoutInflater.inflate(R.layout.creature_details, null);
         dialog.setContentView(layout);
 
-        ImageView myImage = layout.findViewById(R.id.creature_image_view);
-
-        myImage.setImageDrawable(getResources().getDrawable(R.drawable.ic_whale));
-
+        mCreatureImageView = layout.findViewById(R.id.creature_image_view);
+        mCreatureImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_whale));
+        mCreatureName = layout.findViewById(R.id.creature_name);
+        mCreatureName.setText("Peaceful Whale");
+        mCreatureDescription = layout.findViewById(R.id.creature_description);
+        mCreatureDescription.setText("The stuff whale quietly stalks his prey.");
 
         return dialog;
     }
