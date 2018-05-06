@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#7cadd4</color>
+    <color name="colorPrimaryDark">#336e9d</color>
+    <color name="colorPrimaryLight">#b6d1e7</color>
+    <color name="colorAccent">#d4cf7c</color>
 
-    <color name="login_button">#7dd4a4</color>
-    <color name="progress">#7dd4a4</color>
-    <color name="progress_secondary">#b6e7cc</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="dark_gray">#555555</color>
+
+    <color name="sidebar_button">@color/colorPrimary</color>
+    <color name="login_button">@color/colorPrimary</color>
+    <color name="progress">@color/colorPrimary</color>
+    <color name="progress_secondary">@color/colorPrimaryLight</color>
 </resources>

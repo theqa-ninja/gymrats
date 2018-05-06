@@ -21,10 +21,11 @@
         android:layout_marginLeft="64dp"
         android:layout_marginRight="64dp"
         android:text="Login"
-        android:textStyle="bold"
-        android:textSize="18dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/white"
         android:gravity="center"
-        android:background="@drawable/button_login" />
+        android:background="@drawable/button_login"
+        style="?android:attr/borderlessButtonStyle" />
 
     <Button
         android:id="@+id/registerButton"
@@ -36,8 +37,8 @@
         android:layout_marginRight="64dp"
         android:text="Register"
         android:textColor="@color/login_button"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:background="@drawable/button_register" />
+        android:textSize="16dp"
+        android:background="@drawable/button_register"
+        style="?android:attr/borderlessButtonStyle" />
 
 </LinearLayout>

@@ -11,54 +11,69 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:padding="@dimen/sidebar_button_padding"
+        android:paddingRight="@dimen/sidebar_button_padding_right"
         android:id="@+id/logoutButton"
-        android:src="@drawable/ic_logout" />
+        android:src="@drawable/ic_logout"
+        android:background="@drawable/sidebar_button_background" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:padding="@dimen/sidebar_button_padding"
+        android:paddingRight="@dimen/sidebar_button_padding_right"
+        android:layout_marginBottom="16dp"
         android:id="@+id/collectionButton"
-        android:src="@drawable/ic_collection" />
+        android:src="@drawable/ic_collection"
+        android:background="@drawable/sidebar_button_background" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/collectionButton"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:padding="@dimen/sidebar_button_padding"
+        android:paddingRight="@dimen/sidebar_button_padding_right"
+        android:layout_marginBottom="@dimen/sidebar_button_spacing"
         android:id="@+id/recommendationButton"
-        android:src="@drawable/ic_recommendation" />
+        android:src="@drawable/ic_recommendation"
+        android:background="@drawable/sidebar_button_background" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/recommendationButton"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:padding="@dimen/sidebar_button_padding"
+        android:paddingRight="@dimen/sidebar_button_padding_right"
+        android:layout_marginBottom="@dimen/sidebar_button_spacing"
         android:id="@+id/logButton"
-        android:src="@drawable/ic_log" />
+        android:src="@drawable/ic_log"
+        android:background="@drawable/sidebar_button_background" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/logButton"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:padding="@dimen/sidebar_button_padding"
+        android:paddingRight="@dimen/sidebar_button_padding_right"
+        android:layout_marginBottom="@dimen/sidebar_button_spacing"
         android:id="@+id/refreshButton"
-        android:src="@drawable/ic_refresh" />
+        android:src="@drawable/ic_refresh"
+        android:background="@drawable/sidebar_button_background" />
 
     <ProgressBar
         android:id="@+id/determinateBar"
         style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="120dp"
+        android:layout_width="200dp"
         android:layout_height="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:progress="25"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:progress="75"
         android:progressDrawable="@drawable/progress_bar" />
 
     <TextView
@@ -66,10 +81,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/determinateBar"
         android:layout_alignRight="@id/determinateBar"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="4dp"
         android:text="123/1,234 XP"
-        android:textSize="12dp"
+        android:textSize="14sp"
         android:textStyle="italic"
-        android:textColor="@android:color/white" />
+        android:textColor="@color/dark_gray" />
 
 </RelativeLayout>
