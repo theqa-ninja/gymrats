@@ -4,8 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background2"
     tools:context="com.hackhlth.gymrats.DashboardActivity">
+
+    <TextView
+        android:id="@+id/currentAlleleanName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/logoutButton"
+        android:layout_alignLeft="@id/determinateBar"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/dark_gray"
+        android:textStyle="bold"
+        android:text="Gym Rat" />
+
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="8dp"
+        android:layout_below="@id/currentAlleleanName"
+        android:layout_marginLeft="24dp"
+        android:progress="75"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/determinateBar"
+        android:layout_alignLeft="@id/determinateBar"
+        android:layout_marginTop="4dp"
+        android:text="123/1,234 XP"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/dark_gray"
+        android:id="@+id/textView"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/logoutButton"
+        android:layout_above="@id/refreshButton"
+        android:background="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logoutButton"
+        android:layout_above="@id/refreshButton"
+        android:src="@drawable/ic_gym_rat" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -66,37 +118,6 @@
         android:id="@+id/refreshButton"
         android:src="@drawable/ic_refresh"
         android:background="@drawable/sidebar_button_background" />
-
-    <ProgressBar
-        android:id="@+id/determinateBar"
-        style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="200dp"
-        android:layout_height="8dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="24dp"
-        android:progress="75"
-        android:progressDrawable="@drawable/progress_bar" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/determinateBar"
-        android:layout_alignRight="@id/determinateBar"
-        android:layout_marginTop="4dp"
-        android:text="123/1,234 XP"
-        android:textSize="14sp"
-        android:textStyle="italic"
-        android:textColor="@color/dark_gray"
-        android:id="@+id/textView"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_below="@+id/logoutButton"
-        android:layout_marginEnd="26dp"
-        android:layout_toStartOf="@+id/logoutButton"
-        app:srcCompat="@drawable/ic_gym_rat"/>
 
     <com.github.lzyzsd.circleprogress.DonutProgress
         android:id="@+id/stepsProgress"

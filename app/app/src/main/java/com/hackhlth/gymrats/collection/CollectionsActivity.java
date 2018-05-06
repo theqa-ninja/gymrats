@@ -30,6 +30,9 @@ public class CollectionsActivity extends AppCompatActivity {
 
         List<Allelean> alleleans = new ArrayList<>();
         alleleans.add(new Allelean("Gym Rat", getResources().getDrawable(R.drawable.ic_gym_rat)));
+        alleleans.add(new Allelean("Fitwhale", getResources().getDrawable(R.drawable.ic_whale)));
+        alleleans.add(new Allelean("Fatcat", getResources().getDrawable(R.drawable.ic_cat)));
+        alleleans.add(new Allelean("Topdog", getResources().getDrawable(R.drawable.ic_dog)));
 
         collectionAdapter = new CollectionAdapter(this, alleleans);
 
