@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        {
+            "title": "Calcium", 
+            "recommendations":"Your genetics may indicate that you are more likely to have increased calcium levels, but that is only if you are getting sufficient calcium in your diet.",
+            "a1":"T",
+            "a2":"T"
+        },
+        {
+            "title": "Alcohol Flush", 
+            "recommendations":"Likely not sensitive to alcohol. Drink in moderation.",
+            "a1":"G",
+            "a2":"G"
+        }
+    ]
+}

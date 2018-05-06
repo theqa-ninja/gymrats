@@ -1,0 +1,83 @@
+{
+    "alleleans": [
+    {
+        "id": 1,
+        "name": "egg",
+        "photo": "egg.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.812Z",
+        "updated_at": "2018-05-06T05:30:35.812Z"
+    },
+    {
+        "id": 2,
+        "name": "monkey boss",
+        "photo": "monkey_boss.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.818Z",
+        "updated_at": "2018-05-06T05:30:35.818Z"
+    },
+    {
+        "id": 3,
+        "name": "monkey gremling",
+        "photo": "monkey_gremling.svg",
+        "evolve_id": 2,
+        "created_at": "2018-05-06T05:30:35.824Z",
+        "updated_at": "2018-05-06T05:30:35.824Z"
+    },
+    {
+        "id": 4,
+        "name": "monkey base",
+        "photo": "monkey.svg",
+        "evolve_id": 3,
+        "created_at": "2018-05-06T05:30:35.829Z",
+        "updated_at": "2018-05-06T05:30:35.829Z"
+    },
+    {
+        "id": 5,
+        "name": "cat",
+        "photo": "cat.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.835Z",
+        "updated_at": "2018-05-06T05:30:35.835Z"
+    },
+    {
+        "id": 6,
+        "name": "dog",
+        "photo": "egg.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.840Z",
+        "updated_at": "2018-05-06T05:30:35.840Z"
+    },
+    {
+        "id": 7,
+        "name": "Gym Rat",
+        "photo": "gym_rat.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.847Z",
+        "updated_at": "2018-05-06T05:30:35.847Z"
+    },
+    {
+        "id": 8,
+        "name": "owl",
+        "photo": "owl.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.852Z",
+        "updated_at": "2018-05-06T05:30:35.852Z"
+    },
+    {
+        "id": 9,
+        "name": "unicorn",
+        "photo": "unicorn.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.857Z",
+        "updated_at": "2018-05-06T05:30:35.857Z"
+    },
+    {
+        "id": 10,
+        "name": "whale",
+        "photo": "whale.svg",
+        "evolve_id": null,
+        "created_at": "2018-05-06T05:30:35.863Z",
+        "updated_at": "2018-05-06T05:30:35.863Z"
+    }]
+}

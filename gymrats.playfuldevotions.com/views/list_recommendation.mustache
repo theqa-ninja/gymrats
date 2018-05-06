@@ -1,0 +1,11 @@
+<section>
+    <h1>Hi, {{name}}</h1>
+    <p>We've come up with some recommendations for you based on your genetic data.</p>
+    {{#recommendations}}
+    <div class="recommendation">
+        <h2>{{title}}</h2>
+        <p>Alleles: {{a1}}{{a2}}</p>
+        <p>{{description}}</p>
+    </div>
+    {{/recommendations}}
+</section>

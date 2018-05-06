@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    padding: 0;
+    margin: 0;
+    background: #fafafa;
+}
+.inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+nav {
+    background: #7cadd4;
+    text-align: center;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav a, nav a:hover {
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+}
+nav a:hover {
+    background: #336e9d;
+}
+a {
+    text-decoration: none;
+    color: #7cadd4;
+}
+a:hover {
+    color: #336e9d;
+}
+
+.grid > * {
+    display: inline-block;
+}
+.grid-1-3 > * {
+    width: 32%;
+}
+.grid-1-2 > * {
+    width: 49%;
+}
+img, svg {
+    max-width: 100%;
+}
+.alleleans .grid > * {
+    text-align: center;
+}
+.alleleans .image {
+    border-radius: 50%;
+    border: 2px solid #7cadd4;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.exp {
+    width: 80%;
+    border: 1px solid #ddd;
+    height: 1rem;
+}
+.progress {
+    background: #7cadd4;
+    height: 1rem;
+}
+.exp-text {
+    width: 80%;
+    text-align: right;
+}
+.home .allelean {
+    text-align: center;
+    background: url('/img/background2.png') center center;
+    background-size: cover;
+}
+.goal {
+    text-align: center;
+}
+.graph {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2rem;
+}
+.data {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+}
+.data p {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0;
+    color: #555;
+}
