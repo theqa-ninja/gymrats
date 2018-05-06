@@ -19,16 +19,16 @@
         android:background="@drawable/sidebar_button_background" />
 
     <ImageView
+        android:id="@+id/collectionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sidebar_button_background"
         android:padding="@dimen/sidebar_button_padding"
         android:paddingRight="@dimen/sidebar_button_padding_right"
-        android:layout_marginBottom="16dp"
-        android:id="@+id/collectionButton"
-        android:src="@drawable/ic_collection"
-        android:background="@drawable/sidebar_button_background" />
+        android:src="@drawable/ic_collection" />
 
     <ImageView
         android:layout_width="wrap_content"
