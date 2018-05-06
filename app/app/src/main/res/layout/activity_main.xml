@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.hackhlth.gymrats.MainActivity">
 
     <ImageView
         android:id="@+id/creature_image_view"
-        android:layout_width="100dp"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:contentDescription="@string/creature_description" />
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_gym_rat"
+        android:background="@drawable/allelean_circle_background" />
 
     <Button
         android:id="@+id/loginButton"
@@ -37,21 +39,6 @@
         android:layout_marginRight="64dp"
         android:text="Register"
         android:textColor="@color/login_button"
-        android:textSize="16dp"
-        android:background="@drawable/button_register"
-        style="?android:attr/borderlessButtonStyle" />
-
-    <Button
-        android:id="@+id/creatureDetailsButton"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:text="Creature Details"
-        android:textColor="@color/login_button"
-        android:textStyle="bold"
         android:textSize="16dp"
         android:background="@drawable/button_register"
         style="?android:attr/borderlessButtonStyle" />

@@ -36,9 +36,25 @@ public class RecommendationActivity extends AppCompatActivity {
         recommendation2.setAllele2("G");
         recommendation2.setRecommendation("Likely not sensitive to alcohol. Drink in moderation.");
 
+        Recommendation recommendation3 = new Recommendation();
+        recommendation3.setRecommendationLevel(RecommendationLevel.OKAY);
+        recommendation3.setTraitName("Iron Metabolism");
+        recommendation3.setAllele1("A");
+        recommendation3.setAllele2("A");
+        recommendation3.setRecommendation("Iron is important for a number of processes in the body and having a diet with enough iron is important. Since your genetics indicate lower levels, make sure to get enough iron through the foods you are eating.");
+
+        Recommendation recommendation4 = new Recommendation();
+        recommendation4.setRecommendationLevel(RecommendationLevel.BAD);
+        recommendation4.setTraitName("Gluten Tolerance");
+        recommendation4.setAllele1("T");
+        recommendation4.setAllele2("C");
+        recommendation4.setRecommendation("If you experience pain, bloating, or diarrhea after eating gluten, avoiding gluten in your diet should reduce your symptoms.");
+
         List<Recommendation> recommendations = new ArrayList<>();
-        recommendations.add(recommendation);
+        recommendations.add(recommendation4);
+        recommendations.add(recommendation3);
         recommendations.add(recommendation2);
+        recommendations.add(recommendation);
 
         recommendationAdapter = new RecommendationAdapter(this, recommendations);
 

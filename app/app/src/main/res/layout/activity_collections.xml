@@ -8,25 +8,36 @@
         android:orientation="vertical"
         android:background="@android:color/white">
 
-        <TextView
-            android:id="@+id/sample_result"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/collections_title"
-            android:textAlignment="center"
-            android:textColor="@color/helix_green"
-            android:textSize="@dimen/collections_title_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textSize="32sp"
+        android:text="Your Collection" />
 
-        <GridView
-            android:id="@+id/alleleanGrid"
-            android:numColumns="3"
-            android:gravity="center"
-            android:columnWidth="70dp"
-            android:stretchMode="columnWidth"
-            android:layout_width="fill_parent"
-            android:scrollbars="horizontal"
-            android:layout_height="fill_parent" >
-        </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:text="Improve yourself to improve your collection!"/>
+
+    <GridView
+        android:id="@+id/alleleanGrid"
+        android:numColumns="3"
+        android:gravity="center"
+        android:columnWidth="70dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:scrollbars="horizontal"
+        android:layout_height="fill_parent" >
+    </GridView>
 
 
-    </LinearLayout>
+</LinearLayout>
