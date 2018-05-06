@@ -63,8 +63,8 @@ public class CollectionsActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(final String s) {
             if (s != null && !s.equals("")) {
-                TextView sampleResultTextView = findViewById(R.id.sample_result);
-                sampleResultTextView.setText(s);
+//                TextView sampleResultTextView = findViewById(R.id.sample_result);
+//                sampleResultTextView.setText(s);
                 mResults = s;
             }
         }

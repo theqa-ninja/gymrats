@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, DashboardActivity.class));
             }
         });
-        findViewById(R.id.creatureDetailsButton).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View view) {
-                FragmentManager fragmentManager = getFragmentManager();
-                DialogFragment creatureDetailsFragment = new CreatureDetailsFragment();
-                creatureDetailsFragment.show(fragmentManager, "Creature Details");
-            }
-        });
+//        findViewById(R.id.creatureDetailsButton).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(final View view) {
+//                FragmentManager fragmentManager = getFragmentManager();
+//                DialogFragment creatureDetailsFragment = new CreatureDetailsFragment();
+//                creatureDetailsFragment.show(fragmentManager, "Creature Details");
+//            }
+//        });
     }
 
     @Override
