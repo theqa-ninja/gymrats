@@ -4,4 +4,6 @@
     <dimen name="sidebar_button_padding">12dp</dimen>
     <dimen name="sidebar_button_padding_right">32dp</dimen>
     <dimen name="collections_title_text_size">28dp</dimen>
+    <dimen name="creature_dialog_width">300dp</dimen>
+    <dimen name="creature_dialog_height">400dp</dimen>
 </resources>

@@ -36,4 +36,12 @@ public class CreatureDetailsFragment extends DialogFragment {
 
         return dialog;
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        int width = getResources().getDimensionPixelSize(R.dimen.creature_dialog_width);
+        int height = getResources().getDimensionPixelSize(R.dimen.creature_dialog_height);
+        getDialog().getWindow().setLayout(width, height);
+    }
 }
