@@ -1,9 +1,7 @@
-var mysql = require('mysql');
+const pg = require('pg');
 
-var connect = mysql.createConnection({
-  host: 'example.org',
-  user: 'bob',
-  password: 'secret'
-});
+const connectionString = process.env.DATABASE_URL;
 
-module.exports = { connect };
+const client = new pg.Client(connectionString);
+
+module.exports = { client };

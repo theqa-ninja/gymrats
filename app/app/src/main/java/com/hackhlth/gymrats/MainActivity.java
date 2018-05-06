@@ -1,5 +1,7 @@
 package com.hackhlth.gymrats;
 
+import android.app.DialogFragment;
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DashboardActivity.class));
+            }
+        });
+        findViewById(R.id.creatureDetailsButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(final View view) {
+                FragmentManager fragmentManager = getFragmentManager();
+                DialogFragment creatureDetailsFragment = new CreatureDetailsFragment();
+                creatureDetailsFragment.show(fragmentManager, "Creature Details");
             }
         });
     }
