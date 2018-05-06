@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
     tools:context="com.hackhlth.gymrats.DashboardActivity">
 
     <ImageView
@@ -85,6 +86,16 @@
         android:text="123/1,234 XP"
         android:textSize="14sp"
         android:textStyle="italic"
-        android:textColor="@color/dark_gray" />
+        android:textColor="@color/dark_gray"
+        android:id="@+id/textView"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/logoutButton"
+        android:layout_marginEnd="26dp"
+        android:layout_toStartOf="@+id/logoutButton"
+        app:srcCompat="@drawable/ic_gym_rat"/>
 
 </RelativeLayout>
